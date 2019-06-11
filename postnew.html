@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nps-container-fluid">
+                <div class="nps-container">
+                    <ul class="menu">
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="#">Quảng cáo</a></li>
+                        <li><a href="postnew.html">Đăng Mu mới</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="nps-container post">
+        <div class="nps-row">
+            <div class="nps-col-12">
+                <h1>Đăng Mu mới</h1>
+                <p>Lưu ý:
+
+                    - Bài viết bạn gửi sẽ được đăng lên trong vòng không quá 24h. <br>
+                    - Bài viết của bạn phải điền đầy đủ các thông tin bắt buộc. <br>
+                    - Các mu với tên miền miễn phí (vd: myvnc.com, no-ip.com...) <br>
+                    sẽ không được đăng.</p>
+                <form method="GET" action="https://script.google.com/macros/s/AKfycbxp2KeedQq-Z6KSTpkuOkylgcMuhwkmg4aLY1FSXcyS6KP6M3Gx/exec">
+                    <table>
+                        <tr>
+                            <td>Tên Mu</td>
+                            <td><input name="Name" type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Phiên bản</td>
+                            <td><input name="version" type="text" placeholder="Điền season vd:Season 6.9"></td>
+                        </tr>
+                        <tr>
+                            <td>Alpla Test</td>
+                            <td><input name="alpha" type="text" placeholder="ngày mở vd: 22/8/2019 (13h)"></td>
+                        </tr>
+                        <tr>
+                            <td>Open beta</td>
+                            <td><input name="beta" type="text" placeholder="ngày mở vd: 22/8/2019 (13h)"></td>
+                        </tr>
+                        <tr>
+                            <td>Trang chủ</td>
+                            <td><input name="homepage" type="text" placeholder="link trang chủ"></td>
+                        </tr>
+                        <tr>
+                            <td>Exp</td>
+                            <td><input name="exp" type="number">x</td>
+                        </tr>
+                        <tr>
+                            <td>Drop</td>
+                            <td><input name="drop" type="number">%</td>
+                        </tr>
+                        <tr>
+                            <td>Anti Hack</td>
+                            <td><input name="antihack" type="text"></td>
+                        </tr>
+                    </table>
+                    <button type="submit" id="submit-form" onclick="Redirect()">Đăng</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/main.js"></script>
+</html>
